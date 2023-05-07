@@ -1,0 +1,12 @@
+.page {
+  background: #1C1919;
+  min-height: 100vh;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.no-scrolling {
+  overflow: hidden;
+}

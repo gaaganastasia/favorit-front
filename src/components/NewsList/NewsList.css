@@ -1,0 +1,14 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .news__items {
+    display: flex;
+    width: 288px;
+    gap: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+  }
+
+  .news__items::-webkit-scrollbar {
+    width: 0;
+  }
+}

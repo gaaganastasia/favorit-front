@@ -1,0 +1,150 @@
+.terms {
+  width: 1200px;
+  margin: 20px auto 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.terms__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  margin: 40px auto 0;
+}
+
+.terms__info {
+  margin: 48px 0 0;
+  width: 100%;
+  position: relative;
+}
+
+.terms__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, .0);
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.terms__btn_edit {
+  background-image: url(../../images/edit-btn.svg);
+}
+
+.terms__btn_save {
+  background-image: url(../../images/save-btn.svg);
+}
+
+.terms__info-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  
+  
+  color: #E5792B;
+  margin: 0;
+}
+
+.terms__info-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+  color: #FFFFFF;
+  margin: 26px 0 0;
+  max-width: 694px;
+}
+
+.terms__form {
+  width: 734px;
+  margin: 26px 0 0;
+}
+
+.terms__form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.terms__form-input {
+  width: calc(734px - 40px);
+  outline: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+
+  color: #fff;
+  background-color: #1C1919;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  height: 320px;
+  padding: 20px 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .terms {
+    width: 288px;
+    margin: 40px auto 100px;
+  }
+  
+  .terms__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    text-align: center;
+    margin: 22px auto 0;
+  }
+
+  .terms__btn {
+    display: none;
+  }
+  
+  .terms__info {
+    margin: 20px 0 0;
+  }
+  
+  .terms__info-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #E5792B;
+    margin: 0;
+  }
+  
+  .terms__info-text {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 10px 0 0;
+    max-width: 288px;
+  }
+}
