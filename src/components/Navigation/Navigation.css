@@ -10,7 +10,7 @@
   height: 24px;
   background-image: url(../../images/close-icon.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border: none;
   outline: none;
   background-color: #1C1919;
